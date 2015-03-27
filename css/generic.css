@@ -16,9 +16,4 @@ body {
 	display:block;
 }
 
-#info a, .button { 
-	color: #f00;
-	font-weight: bold; 
-	text-decoration: underline; 
-	cursor: pointer 
-}
+#info a, .button { color: #f00; font-weight: bold; text-decoration: underline; cursor: pointer }

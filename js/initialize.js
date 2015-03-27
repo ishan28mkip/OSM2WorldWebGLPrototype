@@ -7,6 +7,15 @@ var mouseX = 0, mouseY = 0;
 var windowHalfX = window.innerWidth / 2;
 var windowHalfY = window.innerHeight / 2;
 
+var answer = window.prompt('set 0 for berlin map, set 1 for model');
+var model;
+
+if(answer == 0){
+	model = './obj/map.obj';
+}
+else{
+	model = './obj/male02.obj';
+}
 
 init();
 animate();
@@ -64,15 +73,16 @@ function init() {
 	// model
 
 	var loader = new THREE.OBJLoader( manager );
-	loader.load( 'obj/example.obj', function ( object ) {
+	loader.load(model, function ( object ) {
 
 		object.traverse( function ( child ) {
-
+/*
 			if ( child instanceof THREE.Mesh ) {
 
 				child.material.map = texture;
 
 			}
+*/
 
 		} );
 
