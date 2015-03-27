@@ -64,7 +64,7 @@ function init() {
 	// model
 
 	var loader = new THREE.OBJLoader( manager );
-	loader.load( 'obj/male02.obj', function ( object ) {
+	loader.load( 'obj/example.obj', function ( object ) {
 
 		object.traverse( function ( child ) {
 
