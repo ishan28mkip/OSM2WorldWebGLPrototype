@@ -1,7 +1,7 @@
 # OSM2WorldWebGLPrototype 
 A prototype for the WebGL frontend of OSM2World.
 
-#####Current Version 0.2
+##Current Version 0.2
 
 Version 0.2
 ------------
@@ -16,7 +16,7 @@ Version 0.2
 ![View 2](http://i.imgur.com/RqQ92qO.png)
 
 
-#####Upcoming Versions
+##Upcoming Versions
 
 Version 0.3
 ------------
@@ -32,7 +32,7 @@ Version 0.4
 
 
 
-#####Old Versions
+##Old Versions
 
 Version 0.1 
 ------------
