@@ -9,6 +9,7 @@ Link to the Preview : http://ishan28mkip.github.io/OSM2WorldWebGLPrototype
 * The browser now loads the .obj and the associated .mtl file together.
 * Ability to Pan/Drag/Zoom added.
 * Fixed background color.
+* Loading the map might take some time, so map might load a little while after drag.
 * Currently only loads one map, St. Nicholas Church, Berlin
 
 ###Screenshots
@@ -24,6 +25,7 @@ Link to the Preview : http://ishan28mkip.github.io/OSM2WorldWebGLPrototype
 
 * Add ability to enter coordinates from the OSM map.
 * Create a server that automates the downloading of the OSM map, runs the OSM2World script and then renders the map via WebGL for testing purposes.
+* Add a loader gif so make the user aware of the loading.
 
 ####Version 0.4
 
