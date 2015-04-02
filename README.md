@@ -9,7 +9,7 @@ Link to the Preview : http://ishan28mkip.github.io/OSM2WorldWebGLPrototype
 * The browser now loads the .obj and the associated .mtl file together.
 * Ability to Pan/Drag/Zoom added.
 * Fixed background color.
-* Loading the map might take some time, so map might load a little while after drag.
+* Loading the map might take some time, so map might load a little after the initialization drag.
 * Currently only loads one map, St. Nicholas Church, Berlin
 
 ###Screenshots
