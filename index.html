@@ -1,21 +1,19 @@
-
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<title>OSM2World Prototype</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="./css/generic.css">
-	</head>
+<html>
+<head>
+    <title>OSM2World WebGL Prototype</title>
+    <script type="text/javascript" src="./libs/three.js"></script> <!-- Library addition -->
+    <script type="text/javascript" src="./libs/TrackballControls.js"></script>
+    <script type="text/javascript" src="./libs/MTLLoader.js"></script> <!-- MTL loader -->
+    <script type="text/javascript" src="./libs/OBJMTLLoader.js"></script> <!-- OBJ MTL Loader -->  
+    <script type="text/javascript" src="./libs/jquery-1.9.0.js"></script> <!-- Included for DOM manipulation -->
+    <script type="text/javascript" src="./libs/stats.js"></script> <!-- For the statistics -->
+    <!-- CSS files -->
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
 
-	<body>
-		<div id="info">
-			OSM2World WebGL Prototype
-		</div>
-
-		<script src="./js/utils/three.min.js"></script>
-		<script src="./js/utils/OBJLoader.js"></script>
-		<script src="./js/initialize.js"></script>
-
-	</body>
+ </head> 
+ <body> 
+    <div id="statsOutput"></div>
+    <script type="text/javascript" src="./js/init.js"></script>  
+</body>
 </html>
